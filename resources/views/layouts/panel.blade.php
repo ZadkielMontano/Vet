@@ -62,9 +62,9 @@
                 <div class="navbar-collapse-header d-md-none">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="./index.html">
+                            <!-- <a >
                                 <img src="{{asset('img/brand/blue.png')}}">
-                            </a>
+                            </a> -->
                         </div>
                         <div class="col-6 collapse-close">
                             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
@@ -87,16 +87,16 @@
         <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
             <div class="container-fluid">
                 <!-- Brand -->
-                <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index.html">Veterinaria Huellitas</a>
+                <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">Veterinaria Huellitas</a>
                 <!-- Form -->
                 <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
                     <div class="form-group mb-0">
-                        <div class="input-group input-group-alternative">
+                        <!-- <div class="input-group input-group-alternative">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-search"></i></span>
                             </div>
                             <input class="form-control" placeholder="Search" type="text">
-                        </div>
+                        </div> -->
                     </div>
                 </form>
                 <!-- User -->

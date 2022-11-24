@@ -241,6 +241,13 @@ img {
   border-style: none;
 }
 
+img.redimension {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;

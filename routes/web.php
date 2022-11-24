@@ -16,9 +16,9 @@ use PhpParser\Node\Expr\FuncCall;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    //return view('auth.login');
 
-    //return view('welcome');  para tener una pagina de vista antes
+    return view('welcome');  //para tener una pagina de vista antes
     
 });
 
@@ -63,7 +63,7 @@ Route::middleware(['auth', 'veterinario'])->group(function () {
 
 });
 
-//rutas de las citass
+//rutas de las citas
 Route::middleware('auth')->group(function(){
 Route::get('/reservarcitas/create', [App\Http\Controllers\AppointmenteController::class, 'create']);
 Route::post('/reservarcitas', [App\Http\Controllers\AppointmenteController::class, 'store']);

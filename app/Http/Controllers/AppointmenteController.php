@@ -29,7 +29,7 @@ class AppointmenteController extends Controller
             ->where('status','Reservada');
 
             $oldAppointments = Appointment::all()
-            ->whereIn('status', ['Atentida','Cancelada']);
+            ->whereIn('status', ['Atendida','Cancelada']);
             
         
         }elseif($role == 'veterinario'){
@@ -44,7 +44,7 @@ class AppointmenteController extends Controller
             ->where('veterinario_id', auth()->id());
 
             $oldAppointments = Appointment::all()
-            ->whereIn('status', ['Atentida','Cancelada'])
+            ->whereIn('status', ['Atendida','Cancelada'])
             ->where('veterinario_id', auth()->id());
 
         
@@ -60,7 +60,7 @@ class AppointmenteController extends Controller
             ->where('client_id', auth()->id());
 
             $oldAppointments = Appointment::all()
-            ->whereIn('status', ['Atentida','Cancelada'])
+            ->whereIn('status', ['Atendida','Cancelada'])
             ->where('client_id', auth()->id());
         
         }
