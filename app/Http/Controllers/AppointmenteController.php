@@ -169,7 +169,7 @@ class AppointmenteController extends Controller
         }
         $appointment->status = 'Cancelada';
         $appointment->save();
-        $notification = 'La cita ha cancelado correctamente.';
+        $notification = 'La cita se ha cancelado correctamente.';
 
         return redirect('/miscitas')->with(compact('notification'));
     }
