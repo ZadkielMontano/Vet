@@ -56,11 +56,16 @@
 
 
                     @if($role == 'admin')
+                    <a href="{{ url('/miscitas/'.$cita->id.'/atendida') }}" class="btn btn-sm btn-success" title="Cita atendida">
+                    Cita atendida
+                    </a>
                     <a href="{{ url('/miscitas/'.$cita->id) }}" class="btn btn-sm btn-info" title="Ver cita">
                     Ver cita</a>
                     @endif
                     
                     <a href="{{ url('/miscitas/'.$cita->id.'/cancel') }}" class="btn btn-sm btn-danger" title="Cancelar cita">Cancelar cita</a>
+
+                    
 
 
                     </td>

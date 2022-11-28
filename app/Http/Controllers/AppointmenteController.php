@@ -189,13 +189,20 @@ class AppointmenteController extends Controller
 
 
     public function confirm(Appointment $appointment ){
-
         $appointment->status = 'Confirmada';
         $appointment->save();
         $notification = 'La cita ha confirmo correctamente.';
-
         return redirect('/miscitas')->with(compact('notification'));
     }
+    public function atendida(Appointment $appointment ){
+        $appointment->status = 'Atendida';
+        $appointment->save();
+        $notification = 'La cita ha registrado correctamente.';
+        return redirect('/miscitas')->with(compact('notification'));
+    }
+
+
+
     
 
 }

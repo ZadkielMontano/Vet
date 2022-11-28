@@ -72,6 +72,8 @@ Route::get('/miscitas', [App\Http\Controllers\AppointmenteController::class, 'in
 Route::post('/miscitas/{appointment}/cancel', [App\Http\Controllers\AppointmenteController::class, 'cancel']);
 //confirmar cita
 Route::post('/miscitas/{appointment}/confirm', [App\Http\Controllers\AppointmenteController::class, 'confirm']);
+//cita atendida
+Route::get('/miscitas/{appointment}/atendida', [App\Http\Controllers\AppointmenteController::class, 'atendida']);
 //cita cancel form
 Route::get('/miscitas/{appointment}/cancel', [App\Http\Controllers\AppointmenteController::class, 'formCancel']);
 //cita información
