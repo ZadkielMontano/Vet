@@ -17,6 +17,11 @@
 </head>
 
 <body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=5610994565&text=Hola%21%20Quisiera%20información%20específica%20sobre%20Veterinaria%20Huellitas?" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
     <header>
         <nav>
         @if (Route::has('login'))
@@ -159,19 +164,22 @@
                     
                         <img src="{{asset('img/wel/close-up-on-veterinarian-taking-care-of-cat.jpg')}}" class="imagen-about-us3">
                         <h3>Rehabilitación</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p>Es un complemento fundamental para el tratamiento y recuperación de diversas patologías, ya que acelera la funcionalidad y 
+                            mejora la capacidad física; dándole la calidad de vida que tu pequeña y pequeño merecen.</p>
                     </div>
                     <div class="servicio-ind">
                     
                         <img src="{{asset('img/wel/veterinarian-taking-care-of-pet-dog.jpg')}}" class="imagen-about-us3">
                         <h3>Vacunas</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p>Las vacunas son antígenos preparados para ser usados en la prevención de enfermedades causadas, a las aves y 
+                            al ganado, por bacterias, virus, micoplasmas, hongos, protozoos y parásitos o sus toxinas.</p>
                     </div>
                     <div class="servicio-ind">
                     
                         <img src="{{asset('img/wel/cute-dog-spitz-at-groomer-salon-1-1.jpg')}}" class="imagen-about-us3">
                         <h3>Estética canina</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p>La estética canina es la disciplina que engloba el cuidado, mejora y mantenimiento de las mascotas en términos de salud, alimentación
+                             y por supuesto, higiene y estética que van desde el baño, el cepillado hasta el corte de uñas, entre muchas otras. </p>
                     </div>
                     
                 </div>

@@ -55,7 +55,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
 
 });
 
-//doctor = veterinario
+//veterinario
 Route::middleware(['auth', 'veterinario'])->group(function () {
 
     Route::get('/horario', [App\Http\Controllers\veterinario\HorarioController::class, 'edit']);

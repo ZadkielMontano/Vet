@@ -45,16 +45,12 @@
 <div class="row">
     <div class="col">
         <br>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto
-    iste ab ipsam veniam temporibus ipsum, quidem ut? Cumque rem repellendus, delectus ipsum dolorem blanditiis esse. Dicta quasi sed id.</p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto
-    iste ab ipsam veniam temporibus ipsum, quidem ut? Cumque rem repellendus, delectus ipsum dolorem blanditiis esse. Dicta quasi sed id.</p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto
-    iste ab ipsam veniam temporibus ipsum, quidem ut? Cumque rem repellendus, delectus ipsum dolorem blanditiis esse. Dicta quasi sed id.</p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto
-    iste ab ipsam veniam temporibus ipsum, quidem ut? Cumque rem repellendus, delectus ipsum dolorem blanditiis esse. Dicta quasi sed id.</p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto
-    iste ab ipsam veniam temporibus ipsum, quidem ut? Cumque rem repellendus, delectus ipsum dolorem blanditiis esse. Dicta quasi sed id.</p>
+    <h1>Huellitas</h1>
+                <p>Somos el mejor centro Veterinario de la Zona de Ecatepec enfocado a brindar servicios médicos y quirúrgicos aplicando 
+                        las técnicas más actuales y equipo de vanguardia para diagnósticos precisos y tratamientos oportunos.</p>
+                        <h1>Nuestro equipo de trabajo</h1>
+                    <p>Nuestro equipo de trabajo está conformado por veterinarios certificados y profesionales que se actualizan día a día en las diversas técnicas
+                    y tratamientos para el cuidado de su mascota, para proporcionarle a cada cliente la atención que se merece.</p>
     </div>
     <div class="col">
         
