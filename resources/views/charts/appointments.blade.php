@@ -7,7 +7,9 @@
     <div class="card-header border-0">
         <div class="row align-items-center">
             <div class="col">
-                <h3 class="mb-0">Reporte de citas</h3>
+                <h3 class="mb-0">
+                    Reporte de Citas Registradas
+                </h3>
             </div>
             
         </div>
@@ -37,7 +39,7 @@
             type: 'line'
         },
         title: {
-            text: 'CITAS REGISTRADAS EN EL MES'
+            text: ''
         },
         subtitle: {
             text: 'Veterinaria Huellitas'

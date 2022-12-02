@@ -157,6 +157,14 @@ main .sobre-nosotros{
     -ms-border-radius: 70px;
     -o-border-radius: 70px;
 }
+.imagen-about-us4{
+    width: 30%;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+}
 .imagen-about-us3{
     width: 48%;
     border-radius: 40px;

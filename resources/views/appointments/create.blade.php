@@ -141,6 +141,9 @@ use Illuminate\Support\Str;
                     @if(old('type') == 'Operación') checked @endif value="Operación">
                     <label class="custom-control-label" for="type3">Operación</label>
                 </div>
+                
+                
+                
             </div>
             <div class="form-group">
                 <label for="description">Breve descripción</label>

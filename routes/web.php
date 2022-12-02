@@ -21,6 +21,11 @@ Route::get('/', function () {
     return view('welcome');  //para tener una pagina de vista antes
     
 });
+Route::get('/politicas', function () {
+    
+    return view('politicas');  
+});
+
 
 Auth::routes();
 
@@ -28,6 +33,13 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::middleware(['auth', 'admin'])->group(function () {
+
+
+
+   
+
+
+
 
     // rutas de las especialidades
     Route::get('/especialidades', [App\Http\Controllers\admin\SpecialityController::class, 'index']);

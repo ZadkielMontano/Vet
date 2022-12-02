@@ -29,12 +29,12 @@
 <ul class="navbar-nav mb-md-3">
     <li class="nav-item">
         <a class="nav-link" href="{{ url('/reportes/citas/line')}}">
-            <i class="ni ni-books text-default"></i> Citas
+            <i class="ni ni-books text-default"></i> Reporte de Citas
         </a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ url('/reportes/vets/column')}}">
-            <i class="ni ni-chart-bar-32 text-warning"></i> Desempeño del personal
+            <i class="ni ni-chart-bar-32 text-warning"></i> Desempeño de Veterinarios
         </a>
     </li>
 </ul>

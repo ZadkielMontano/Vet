@@ -43,12 +43,12 @@
                         <input class="form-control" placeholder="Contraseña" type="password" name="password" required autocomplete="current-password">
                     </div>
                 </div>
-                <div class="custom-control custom-control-alternative custom-checkbox">
+                <!-- <div class="custom-control custom-control-alternative custom-checkbox">
                     <input name="remember" class="custom-control-input" id="remember" type="checkbox" {{ old ('remember') ? 'checked' : '' }}>
                     <label class="custom-control-label" for="remember">
                         <span class="text-muted">Recordar sesión</span>
                     </label>
-                </div>
+                </div> -->
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary my-4">ingresar</button>
                 </div>

@@ -67,7 +67,8 @@
                     <div class="custom-control custom-control-alternative custom-checkbox">
                       <input class="custom-control-input" id="customCheckRegister" type="checkbox">
                       <label class="custom-control-label" for="customCheckRegister">
-                        <span class="text-muted">I agree with the <a href="#!">Politicas de privacidad</a></span>
+                        <span class="text-muted"><a href="/politicas" class="nav-link" target="_blank">Estoy de acuerdo con las Politicas de Privacidad</span></a>
+                          
                       </label>
                     </div>
                   </div>
@@ -77,7 +78,7 @@
                 </div>
               </form>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </div>

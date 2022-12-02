@@ -3,7 +3,7 @@ const chart = Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-        text: 'DESEMPEÑO DEL PERSONAL'
+        text: ''
     },
     subtitle: {
         text: 'Veterinaria Huellitas'
