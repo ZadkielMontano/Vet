@@ -13,6 +13,33 @@
         </div>
     </div>
     <div class="card-body">
+
+    <div class="input-daterange datepicker row align-items-center" data-date-format="yyyy-mm-dd">
+    <div class="col">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                </div>
+                <input class="form-control" placeholder="Fecha Inicio" id="startDate"
+                type="text" value="{{ $start }}">
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                </div>
+                <input class="form-control" placeholder="Fecha Fin" id="endDate"
+                type="text" value="{{ $end }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+
         <div id="container">
 
             
@@ -27,10 +54,15 @@
 
 @section('scripts')
 
+
+
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script src="{{asset ('js/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')}} "></script>
+
 
     <script src="{{ asset('js/charts/vets.js')}}"></script>
 

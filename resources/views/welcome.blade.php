@@ -49,6 +49,10 @@
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
                     style="stroke: none; fill: #fff;"></path>
             </svg></div>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnXsPqbuvtP1UfYyGlUWX2cHLXyeKv975oAxZLA5_938JNig/viewform?usp=sf_link" class="btn-flotante" target="_blank">Danos tu opinión</a>
+
+
     </header>
     <main>
         <section class="contenedor sobre-nosotros">
@@ -184,10 +188,12 @@
                     
                 </div>
             </div>
+            
         </section>
         
     </main>
     <footer>
+        
         <div class="contenedor-footer">
             <div class="content-foo">
                 <h4>Número Telefónico</h4>

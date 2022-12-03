@@ -60,11 +60,11 @@
                         Veterinaria Huellitas conservará sus datos una vez finalizada la relación con el usuario para cumplir las obligaciones legales necesarias. 
                         </p>
                 </div>
-                <img src=" {{asset('img/wel/21253193_2106.q703.012.F.m004.c5.veterinary clinic cartoon.jpg')}}"class="imagen-about-us4">
+                <img src=" {{asset('img/wel/recogida-datos.jpg')}}"class="imagen-about-us4">
             </div>
 
             <div class="contenedor-sobre-nosotros">
-                <img src=" {{asset('img/wel/21253193_2106.q703.012.F.m004.c5.veterinary clinic cartoon.jpg')}}"class="imagen-about-us4">
+                <img src=" {{asset('img/wel/seguridad-info.jpg')}}"class="imagen-about-us4">
                 <div class="contenido-textos">
                     <br><br>
                     <h3><span>2</span>Seguridad de la información</h3>
@@ -82,11 +82,11 @@
                     serán consideradas como confidenciales. El acceso a esta información está restringido mediante herramientas tecnológicas 
                     y mediante estrictos controles internos.</p>
                 </div>
-                <img src=" {{asset('img/wel/21253193_2106.q703.012.F.m004.c5.veterinary clinic cartoon.jpg')}}"class="imagen-about-us4">
+                <img src=" {{asset('img/wel/confidencialidad-info.jpeg')}}"class="imagen-about-us4">
             </div>
 
             <div class="contenedor-sobre-nosotros">
-                <img src=" {{asset('img/wel/21253193_2106.q703.012.F.m004.c5.veterinary clinic cartoon.jpg')}}"class="imagen-about-us4">
+                <img src=" {{asset('img/wel/enlaces.jpg')}}"class="imagen-about-us4">
                 <div class="contenido-textos">
                     <br><br>
                     <h3><span>4</span>Enlaces con otros sitios web</h3>
@@ -102,7 +102,7 @@
                     <p>El usuario podrá ejercitar, respecto a los datos recabados en la forma prevista, los derechos reconocidos por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y en particular los derechos de acceso, 
                         rectificación o cancelación de datos y oposición, si resultase pertinente, así como el de revocación del consentimiento para la cesión de sus datos.</p>
                 </div>
-                <img src=" {{asset('img/wel/21253193_2106.q703.012.F.m004.c5.veterinary clinic cartoon.jpg')}}"class="imagen-about-us4">
+                <img src=" {{asset('img/wel/derechos-us.jpg')}}"class="imagen-about-us4">
             </div>
 
 

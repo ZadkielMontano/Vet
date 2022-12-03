@@ -24,17 +24,17 @@
 <!-- Divider -->
 <hr class="my-3">
 <!-- Heading -->
-<h6 class="navbar-heading text-muted">Reportes</h6>
+<h6 class="navbar-heading text-muted">CITAS</h6>
 <!-- Navigation -->
 <ul class="navbar-nav mb-md-3">
     <li class="nav-item">
         <a class="nav-link" href="{{ url('/reportes/citas/line')}}">
-            <i class="ni ni-books text-default"></i> Reporte de Citas
+            <i class="ni ni-chart-bar-32 text-default"></i> Citas registradas 
         </a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ url('/reportes/vets/column')}}">
-            <i class="ni ni-chart-bar-32 text-warning"></i> Desempeño de Veterinarios
+            <i class="ni ni-chart-bar-32 text-warning"></i> Citas atendidas / Citas canceladas
         </a>
     </li>
 </ul>

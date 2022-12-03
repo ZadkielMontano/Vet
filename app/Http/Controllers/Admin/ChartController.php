@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Appointment;
 use App\Models\User;
-
+use Carbon\Carbon;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class ChartController extends Controller
@@ -34,14 +35,29 @@ class ChartController extends Controller
     }
 
 public function vets(){
-    return view('charts.vets');
+    $now = Carbon::now();
+    $end =$now->format('Y-m-d');
+    $start = $now->subMonth('2')->format('Y-m-d');
+
+    return view('charts.vets',compact('end','start'));
 
 }
 
-public function vetsJson(){
+public function vetsJson(Request $request){
+
+
+    $start = $request->input('start');
+    $end = $request->input('end');
+
     $vets = User::Veterinario()
     ->select('name')
-    ->withCount(['attendedAppointments','cancellAppointments'])
+    ->withCount(['attendedAppointments'=> function($query) use ($start, $end){
+        $query->whereBetween('scheduled_date',[$start, $end]);
+    },
+    'cancellAppointments'=> function($query) use ($start, $end){
+        $query->whereBetween('scheduled_date',[$start, $end]);
+    }
+    ])
     ->orderBy('cancell_appointments_count','desc')
     ->take(6)
     ->get();

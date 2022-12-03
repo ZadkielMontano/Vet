@@ -7,6 +7,43 @@
 body {
     font-family: 'open sans';
 }
+
+/* formulario */
+
+.btn-flotante {
+	font-size: 15px;
+	/*Cambiareltamañodelatipografia*/font-weight: bold;
+	/*Fuenteennegritaobold*/color: #ffffff;
+	/*Colordeltexto*/border-radius: 55px;
+	/*Espacioentreletras*/background-color: #642a73;
+	/*Colordefondo*/padding: 18px;
+	/*Rellenodelboton*/position: fixed;
+	bottom: 40px;
+	left: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow:15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.btn-flotante:hover {
+	background-color: #c768df; /* Color de fondo */
+	/* background-color: #; Color de fondo al pasar el cursor */
+	box-shadow:20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		left: 20px;
+	}
+}
+
+/* wats */
 .float{
 	position:fixed;
 	width:60px;
