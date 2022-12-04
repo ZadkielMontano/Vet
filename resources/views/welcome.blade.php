@@ -50,7 +50,8 @@
                     style="stroke: none; fill: #fff;"></path>
             </svg></div>
 
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnXsPqbuvtP1UfYyGlUWX2cHLXyeKv975oAxZLA5_938JNig/viewform?usp=sf_link" class="btn-flotante" target="_blank">Danos tu opinión</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnXsPqbuvtP1UfYyGlUWX2cHLXyeKv975oAxZLA5_938JNig/viewform?usp=sf_link" class="btn-flotante" target="_blank">
+                Danos tu opinión<br></a>
 
 
     </header>

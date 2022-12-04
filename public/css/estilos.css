@@ -11,26 +11,26 @@ body {
 /* formulario */
 
 .btn-flotante {
-	font-size: 15px;
-	/*Cambiareltamañodelatipografia*/font-weight: bold;
-	/*Fuenteennegritaobold*/color: #ffffff;
-	/*Colordeltexto*/border-radius: 55px;
-	/*Espacioentreletras*/background-color: #642a73;
-	/*Colordefondo*/padding: 18px;
-	/*Rellenodelboton*/position: fixed;
-	bottom: 40px;
-	left: 40px;
-	transition: all 300ms ease 0ms;
-	box-shadow:15px rgba(0, 0, 0, 0.1);
-	z-index: 99;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+    font-size: 15px;
+    /*Cambiareltamañodelatipografia*/font-weight: bold;
+    /*Fuenteennegritaobold*/color: #000000;
+    /*Espacioentreletras*/background-color: #6c47d3;
+    /*Colordefondo*/padding: 18px;
+    /*Rellenodelboton*/position: fixed;
+    border-radius:66px;
+    bottom: 40px;
+    left: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow:15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    -webkit-border-radius:66px;
+    -moz-border-radius:66px;
+    -ms-border-radius:66px;
+    -o-border-radius:66px;
 }
 .btn-flotante:hover {
-	background-color: #c768df; /* Color de fondo */
-	/* background-color: #; Color de fondo al pasar el cursor */
+	background-color: #4e2edf; /* Color de fondo */
+	color: rgb(255, 255, 255);
 	box-shadow:20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-7px);
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .titulo {
-    color: #642a73;
+    color: #000000;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -220,7 +220,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #4d0686;
+    background: #825ee4;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -301,7 +301,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #4d0686;
+    background: #825ee4;
     display: flex;
     width: 46%;
     height: 200px;

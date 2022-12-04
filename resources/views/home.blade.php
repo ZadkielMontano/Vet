@@ -54,7 +54,7 @@
     </div>
     <div class="col">
         
-    <img src="{{asset('img/wel/icon-bln.jpeg')}}" /> 
+    <img src="{{asset('img/wel/icon-bln.png')}}" /> 
     </div>
 </div>
 </div>
