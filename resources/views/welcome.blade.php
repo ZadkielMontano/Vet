@@ -202,7 +202,7 @@
             </div>
             <div class="content-foo">
                 <h4>Correo Oficial</h4>
-                <p>veterinaria_huellitas@gmail.com</p>
+                <p>veterinaria_huellitas@hotmail.com</p>
             </div>
             
         </div>
